@@ -1,0 +1,82 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration:none;
+}
+#container{
+    background-color: #030a0a;
+    height:200px;
+    top: 0;
+    background-color: black;
+    height: 60px;
+   position: sticky;
+    top: 0px;
+    border-radius: 90px;
+    width: 100%;
+    display : flex; 
+    justify-content:center;
+    align-items :center;
+   
+}
+a{
+    margin-right:190px;
+    text-align: center;
+}
+
+button{
+    background-color:#f08804;
+  
+}
+#logo{
+    color: #f08804;
+    font-size: larger ;
+}
+.contentbox{
+    display: inline-block;
+    border: 4px solid black;
+    padding-left: 100px;
+    margin: 90px;
+    height: 200px;
+    width: 210px;
+    z-index: -10;
+    background-image: url("bird_img.jpg");
+    background-size: cover;
+  
+}
+footer{
+    background-color: #0f1111;
+    height: 100px;
+    margin-top:720px ;
+    color: #f08804;
+   text-align: center;
+   font-size: 50px;
+   position: sticky;
+   bottom: 0px;
+    
+    
+   
+}
+.body-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width:1350px;
+    
+  }
+ 
+  .content-collapsed {
+    margin-left: 0px;
+  }
+
+body{
+    background-color: #bcd2d2; 
+    background-image: url("bird_img.jpg");
+    background-size: contain;
+    
+}
+p{
+    font-size: 35px;
+    color: #432ab3;
+
+}

@@ -1,0 +1,78 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+ 
+   border: 10px solid rgba(15, 7, 7, 0.844);
+   background-color: aqua;
+   
+}
+#box2{
+    height: 200px;
+    width: 200px;
+   border: 10px solid rgba(15, 7, 7, 0.844);
+   background-color: bisque;
+   text-align: center;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+   border: 10px solid rgba(15, 7, 7, 0.844);
+   background-color: olive;
+   text-align: center;
+   
+}
+#box4{
+    height: 200px;
+    width: 200px;
+   border: 10px solid rgba(15, 7, 7, 0.844);
+   background-color: orange;
+   text-align: center;
+ 
+}
+#box5{
+    height: 200px;
+    width: 200px;
+   border: 10px solid rgba(15, 7, 7, 0.844);
+   background-color: orange;
+   text-align: center;
+   transform: rotate(90deg);
+   rotate: x 180deg;
+    transform:scale(2,0.99999999);
+ 
+}
+
+p:hover{
+    background-color: black;
+    color: white;
+    transition: all 2s ease-in 0s;
+    transform: rotate(360deg);  
+    
+}
+#container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap: wrap;  
+    align-items: center;
+    align-content: 0;
+    
+}
+#container:hover{
+    background-color: yellow;
+
+    transition: all 2s ease-in 0s;
+    transform: rotate(360deg);  
+    animation-delay: 2s;
+   
+   
+}
+#container:active{
+    background-color: rgb(20, 241, 138);
+}
+
+body{
+    height: 2000px;
+    width: 800px;
+    border: 2px solid black;;
+}

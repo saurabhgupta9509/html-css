@@ -1,0 +1,26 @@
+p{
+    
+}
+
+body{
+    margin: 250px;
+   background-color: rgb(83, 149, 206);
+}
+
+#hello{
+    background-color: rgb(140, 168, 192);
+    margin-left:auto;
+    margin-right:auto;
+    width: 600px;
+    height: 300px;
+    border: 10px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  10px 10px  #03440d;
+
+
+}
+.user{
+    display: inline-block;
+}
